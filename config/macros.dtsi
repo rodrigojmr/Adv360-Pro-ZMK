@@ -1,3 +1,27 @@
+macro_alt_shift_right: macro_alt_shift_right{
+compatible = "zmk,behavior-macro";
+label = "macro_alt_shift_right";
+#binding-cells = <0>;
+bindings = <&kp LEFT_ALT>, <&kp LSHIFT>, <&kp RIGHT_ARROW>;
+};
+macro_alt_shift_left: macro_alt_shift_left{
+compatible = "zmk,behavior-macro";
+label = "macro_alt_shift_left";
+#binding-cells = <0>;
+bindings = <&kp LEFT_ALT>, <&kp LSHIFT>, <&kp LEFT>;
+};
+macro_ctrl_shift_righ: macro_ctrl_shift_righ{
+compatible = "zmk,behavior-macro";
+label = "macro_ctrl_shift_righ";
+#binding-cells = <0>;
+bindings = <&kp LCTRL>, <&kp LSHIFT>, <&kp RIGHT_ARROW>;
+};
+macro_ctrl_shift_left: macro_ctrl_shift_left{
+compatible = "zmk,behavior-macro";
+label = "macro_ctrl_shift_left";
+#binding-cells = <0>;
+bindings = <&kp LCTRL>, <&kp LSHIFT>, <&kp LEFT_ARROW>;
+};
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
 label = "macro_quotes";
